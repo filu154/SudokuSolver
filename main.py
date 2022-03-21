@@ -1,7 +1,7 @@
 import pygame
 import colors
-from draftSolver import SudokuSolver
-from draftWindow import Window
+from solver import SudokuSolver
+from window import Window
 from inputSudoku import getBoardFromFile
 
 inputSudoku = getBoardFromFile("Board1.txt")
